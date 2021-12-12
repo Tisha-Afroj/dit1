@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,300;0,400;0,500;1,300;1,400&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+    font-family: 'Raleway', sans-serif;
+    color: #444444;
+}
+a{text-decoration: none;color: #013289;}
+.container{
+  width: 1150px;
+  margin: auto;
+}
+.overflow{
+  overflow: hidden;
+}
+.clr{
+  clear: both;
+} 
+
+.mt-10{margin-top:10px;}
+.mt-30{margin-top:30px;}
+
+/* Header Area */
+
+.header-area {
+    padding-top: 20px;
+}
+
+.logo {
+    float: left;
+}
+.logo img {
+    width: 250px;
+}
+.navigation {
+      float: right;
+  }
+.navigation ul li {
+      list-style: none;
+  }
+.navigation ul li a {
+      margin-right: 20px;
+      font-size: 18px;
+      font-weight: bold;
+      color: #013289;
+  }
+.navigation ul li a:hover{
+  color: #10c9c3;
+  transition: .5s;
+}
+.active{
+  color: #F8993C;
+}
+
+/* header area end */
+
+/* contact area */
+
+.contact-area{
+    /* background-image: url('../images/5.jpg');
+    background-size: cover; */
+    height: 80vh;
+  
+  }
+  .contact-section {
+        display: flex;
+    }
+  .contact-details {
+        margin-top: 140px;
+    }
+  .contact-details h2 {
+        font-size: 31px;
+        margin-bottom: 28px;
+        padding-top: 100px;
+    }
+  .contact-details p {
+        font-size: 21px;
+        margin-bottom: 17px;
+    }
+  .contact-btn {
+        margin-top: 50px;
+    }
+  .btn {
+        padding-left: 25px;
+        padding-right: 25px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        font-size: 17px;
+        background: #10c9c3;
+        color: #fff;
+        border: none;
+        font-family: 'Raleway', sans-serif;
+    }
+  .contact-image img {
+        margin-top: 180px;
+    }
+
+    /*contact area end */
+
+    /* about section */
+    
+    .about-details h2 {
+      font-size: 31px;
+      margin-bottom: 25px;
+      margin-top: 111px;
+      text-align: center;
+  }
+  .about-details p{
+    font-size: 17px;
+    margin-bottom: 28px;
+    text-align: center;
+}
+
+    /* about section end*/
